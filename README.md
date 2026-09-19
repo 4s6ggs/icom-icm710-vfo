@@ -6,147 +6,115 @@
 
 ---
 
-![ICOM IC-M710 VFO Controller](screenshot.png)
+## 📻 About
 
-## ⬇️ Download
+ICOM IC-M710 VFO Controller is a Windows desktop application for computer-based control of the **ICOM IC-M710 HF marine transceiver** through a compatible serial / CI-V interface.
 
-### Windows — v1.0.5
+The controller provides frequency control, VFO tuning, amateur-band selection, operating-mode selection, radio status monitoring, volume and MUTE control, radio synchronization, and serial communication.
 
-<a href="https://github.com/4s6ggs/icom-icm710-vfo/releases/latest">
-<img src="https://img.shields.io/badge/⬇%20DOWNLOAD%20LATEST%20RELEASE-v1.0.5-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download Latest Release">
-</a>
-
-### 🟢 Portable EXE
-
-**`ICOM_M710_VFO_Controller.exe`**
-
-Run the controller directly without installation.
-
-<a href="https://github.com/4s6ggs/icom-icm710-vfo/releases/latest">
-<img src="https://img.shields.io/badge/⬇%20DOWNLOAD-PORTABLE%20EXE-4CAF50?style=for-the-badge&logo=windows&logoColor=white" alt="Download Portable EXE">
-</a>
-
-### 🔵 Windows Installer
-
-**`ICOM_M710_VFO_Controller_Setup.exe`**
-
-Install the application with Windows Start Menu and Desktop shortcuts.
-
-<a href="https://github.com/4s6ggs/icom-icm710-vfo/releases/latest">
-<img src="https://img.shields.io/badge/⬇%20DOWNLOAD-WINDOWS%20INSTALLER-1976D2?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows Installer">
-</a>
-
-> Both files are available under **Assets** in the latest GitHub Release.
-
-**No Python installation is required.**
+**Version:** `v1.0.5`
 
 ---
 
-## 📻 About
+## ⬇️ Download for Windows
 
-ICOM IC-M710 VFO Controller is a Windows desktop application designed to provide convenient computer control of the **ICOM IC-M710**.
+### 🟢 Portable EXE
 
-The application provides frequency control, band selection, operating-mode selection, VFO tuning, serial communication and radio status functions through a simple Windows GUI.
+Run the application directly without installation.
+
+**File:**
+
+`ICOM_M710_VFO_Controller.exe`
+
+[Download v1.0.5 Release](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.5?utm_source=chatgpt.com)
+
+### 🔵 Windows Installer
+
+Install the application with Windows shortcuts.
+
+**File:**
+
+`ICOM_M710_VFO_Controller_Setup.exe`
+
+[Download v1.0.5 Release](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.5?utm_source=chatgpt.com)
+
+> Open the release and download the required file from **Assets**.
+
+**No Python installation is required to use the released Windows application.**
 
 ---
 
 ## ✨ Features
 
-* Full VFO frequency control
-* Frequency range from **1.6000 MHz to 30.0000 MHz**
+### VFO Frequency Control
+
+* Full VFO coverage from **1.6000 MHz to 30.0000 MHz**
 * Direct frequency entry
-* Quick amateur-band selection
-* Mouse-wheel VFO tuning
-* 100 Hz tuning resolution
+* Frequency SET control
+* Fast mouse-wheel tuning
+* 100 Hz tuning
 * 1 kHz tuning
 * 10 kHz tuning
 * 100 kHz tuning
 * 1 MHz tuning
 * Manual tuning mode
-* Automatic VFO acceleration
-* USB mode
-* LSB mode
-* AM mode
-* AFS mode
-* CW mode
-* FSK mode
-* RX / TX status display
-* Serial COM-port selection
-* Adjustable baud rate
-* Radio ID selection
-* Controller ID configuration
-* Windows desktop interface
-* Portable EXE version
-* Windows installer version
+* Automatic acceleration mode
+* Configurable automatic acceleration start
+* Configurable maximum tuning step
+* Wheel-speed reset
 
----
+### Amateur Radio Band Selection
 
-## 📡 Full VFO Range
+| Band  |     Frequency Range |
+| ----- | ------------------: |
+| 160 m |   1.800 – 2.000 MHz |
+| 80 m  |   3.500 – 4.000 MHz |
+| 60 m  |   5.250 – 5.450 MHz |
+| 40 m  |   7.000 – 7.300 MHz |
+| 30 m  | 10.100 – 10.150 MHz |
+| 20 m  | 14.000 – 14.350 MHz |
+| 17 m  | 18.068 – 18.168 MHz |
+| 15 m  | 21.000 – 21.450 MHz |
+| 12 m  | 24.890 – 24.990 MHz |
+| 10 m  | 28.000 – 29.700 MHz |
 
-**1.6000 MHz – 30.0000 MHz**
-
-Frequency display resolution:
-
-**100 Hz**
-
----
-
-## 📻 Amateur Radio Bands
-
-| Band  |     Frequency Range | Start Frequency |
-| ----- | ------------------: | --------------: |
-| 160 m |   1.800 – 2.000 MHz |       1.800 MHz |
-| 80 m  |   3.500 – 4.000 MHz |       3.500 MHz |
-| 60 m  |   5.250 – 5.450 MHz |       5.250 MHz |
-| 40 m  |   7.000 – 7.300 MHz |       7.000 MHz |
-| 30 m  | 10.100 – 10.150 MHz |      10.100 MHz |
-| 20 m  | 14.000 – 14.350 MHz |      14.000 MHz |
-| 17 m  | 18.068 – 18.168 MHz |      18.068 MHz |
-| 15 m  | 21.000 – 21.450 MHz |      21.000 MHz |
-| 12 m  | 24.890 – 24.990 MHz |      24.890 MHz |
-| 10 m  | 28.000 – 29.700 MHz |      28.000 MHz |
-
----
-
-## 🎛️ VFO Tuning
-
-Available tuning steps:
-
-| Step   | Resolution |
-| ------ | ---------: |
-| Step 1 |     100 Hz |
-| Step 2 |      1 kHz |
-| Step 3 |     10 kHz |
-| Step 4 |    100 kHz |
-| Step 5 |      1 MHz |
-
-### Tuning Modes
-
-* **MANUAL**
-* **AUTO ACCELERATION**
-
-Use the mouse wheel over the VFO control for fast frequency adjustment.
-
-Press **ESC** to stop active wheel tuning.
+**FULL VFO:** `1.6000 – 30.0000 MHz`
 
 ---
 
 ## 🎙️ Operating Modes
 
-The controller supports:
+The controller provides:
 
-* **USB** — Upper Sideband
-* **LSB** — Lower Sideband
-* **AM** — Amplitude Modulation
-* **AFS**
-* **CW** — Continuous Wave
-* **FSK** — Frequency Shift Keying
+* USB
+* LSB
+* AM
+* AFS
+* CW
+* FSK
+
+The selected operating mode is displayed in the controller interface.
+
+---
+
+## 📡 Radio Control
+
+The application provides:
+
+* RX / TX control
+* Speaker MUTE control
+* Speaker enable / disable
+* Volume control
+* Remote control
+* Radio synchronization
+* Frequency readback
+* Radio status monitoring
 
 ---
 
 ## 🔌 Serial Communication
 
-Default communication settings:
+### Default Settings
 
 | Setting       | Default |
 | ------------- | ------- |
@@ -155,7 +123,7 @@ Default communication settings:
 | Controller ID | 90      |
 | Radio ID      | 01      |
 
-Supported baud rates:
+### Supported Baud Rates
 
 ```text
 1200
@@ -165,7 +133,7 @@ Supported baud rates:
 19200
 ```
 
-Select the COM port connected to the ICOM IC-M710 interface before pressing **CONNECT**.
+The COM port can be selected directly from the application.
 
 ---
 
@@ -179,90 +147,129 @@ Select the COM port connected to the ICOM IC-M710 interface before pressing **CO
 ### Hardware
 
 * ICOM IC-M710
-* Compatible serial interface
+* Compatible serial / CI-V interface
 * Available Windows COM port
 
 ### Software
 
-No Python installation is required for the released Windows executable.
+The released Windows application is ready to run.
+
+**Python is not required for the released EXE.**
 
 ---
 
 ## 🚀 Installation
 
-### Option 1 — Portable EXE
+### Portable Version
 
 1. Download `ICOM_M710_VFO_Controller.exe`.
 2. Save it anywhere on your Windows computer.
-3. Double-click the EXE.
-4. Connect your ICOM IC-M710 interface.
+3. Connect the ICOM IC-M710 using the appropriate interface.
+4. Start the EXE.
 5. Select the correct COM port.
 6. Select the appropriate baud rate.
-7. Click **CONNECT**.
+7. Confirm the Radio ID.
+8. Click **CONNECT**.
 
-### Option 2 — Windows Installer
+### Installer Version
 
-1. Download `ICOM_M710_VFO_Controller_Setup.exe`.
+1. Download `ICOM_M710_VFO_Controller_Setup.exe` from the release Assets.
 2. Run the installer.
-3. Follow the installation steps.
-4. Use the Desktop or Start Menu shortcut.
-5. Connect your ICOM IC-M710 interface.
-6. Start the controller.
+3. Follow the Windows installation steps.
+4. Start the application from the Desktop or Start Menu.
+5. Connect the ICOM IC-M710 interface.
+6. Configure the COM port and communication settings.
+7. Click **CONNECT**.
 
 ---
 
-## 🔐 Download Verification
+## 🖱️ Mouse-Wheel VFO Tuning
 
-### SHA-256 — v1.0.5
+The mouse wheel can be used for rapid VFO adjustment.
+
+Available tuning steps:
 
 ```text
-60d02d21b5468971dfd9acc787fdb89184801a780a25e24daa7bb770353b08d7
+100 Hz
+1 kHz
+10 kHz
+100 kHz
+1 MHz
 ```
 
-To verify the portable EXE on Windows:
+### Automatic Acceleration
 
-```bat
-certutil -hashfile ICOM_M710_VFO_Controller.exe SHA256
-```
+When **AUTO ACCELERATION** is enabled, continued wheel movement can increase the tuning step up to the configured maximum.
 
-Compare the generated SHA-256 value with the value above.
+Press **ESC** to stop active wheel tuning.
+
+---
+
+## 🔗 Serial Connection
+
+Before connecting:
+
+1. Connect the radio interface to the computer.
+2. Power on the IC-M710.
+3. Select the correct COM port.
+4. Select the radio baud rate.
+5. Confirm the Radio ID.
+6. Press **CONNECT**.
+
+> **Important:** Use an appropriate interface for your particular IC-M710 installation. Verify the radio documentation, interface hardware, wiring, and serial settings before connecting equipment.
 
 ---
 
 ## 📦 Release Information
 
-### Version 1.0.5
+### v1.0.5
 
-| Item          | Information                          |
-| ------------- | ------------------------------------ |
-| Application   | ICOM IC-M710 VFO Controller          |
-| Version       | v1.0.5                               |
-| Platform      | Windows                              |
-| Portable File | `ICOM_M710_VFO_Controller.exe`       |
-| Installer     | `ICOM_M710_VFO_Controller_Setup.exe` |
-| Developer     | 4S6GGS                               |
+| Item         | Information                          |
+| ------------ | ------------------------------------ |
+| Application  | ICOM IC-M710 VFO Controller          |
+| Version      | v1.0.5                               |
+| Platform     | Windows                              |
+| Portable EXE | `ICOM_M710_VFO_Controller.exe`       |
+| Installer    | `ICOM_M710_VFO_Controller_Setup.exe` |
+| Developer    | 4S6GGS                               |
 
 [View v1.0.5 Release](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.5?utm_source=chatgpt.com)
 
-[View All Releases](https://github.com/4s6ggs/icom-icm710-vfo/releases?utm_source=chatgpt.com)
+[View all releases](https://github.com/4s6ggs/icom-icm710-vfo/releases?utm_source=chatgpt.com)
 
 ---
 
-## 📂 Project Files
+## 🔐 SHA-256 Verification
 
-The public repository provides the compiled Windows application and release documentation.
+### v1.0.5 Portable EXE
 
-The Python source code is **not included in the public release**.
+```text
+60d02d21b5468971dfd9acc787fdb89184801a780a25e24daa7bb770353b08d7
+```
+
+To verify the downloaded EXE in Windows Command Prompt:
+
+```bat
+certutil -hashfile ICOM_M710_VFO_Controller.exe SHA256
+```
+
+Compare the generated SHA-256 value with the value shown above.
+
+---
+
+## 📸 Application
+
+The project provides a Windows graphical control interface for the ICOM IC-M710, including VFO, band, mode, serial communication, RX/TX, volume, MUTE, and radio-status controls.
 
 ---
 
 ## ⚠️ Disclaimer
 
-This software is an independent controller application for the ICOM IC-M710.
+This is an independent software project for controlling an ICOM IC-M710 through a compatible computer/radio interface.
 
-ICOM and IC-M710 are trademarks of their respective owners.
+ICOM and IC-M710 are trademarks of their respective owners. This project is not presented as an official ICOM product unless explicitly stated otherwise.
 
-The user is responsible for ensuring that operation of the radio and software complies with applicable laws, regulations, licensing requirements and equipment documentation.
+Always verify the correct radio configuration, interface hardware, serial settings, operating limits, and applicable regulations before operating the transceiver.
 
 ---
 
