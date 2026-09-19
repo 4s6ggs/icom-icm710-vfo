@@ -12,6 +12,44 @@
 ## 📻 Download
 
 ### Windows EXE — v1.0.5
+## ⬇️ Download
+
+### Windows EXE
+
+<a href="https://github.com/4s6ggs/icom-icm710-vfo/releases/latest">
+<img src="https://img.shields.io/badge/⬇%20DOWNLOAD%20FOR%20WINDOWS-v1.0.5-2ea44f?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows">
+</a>
+
+**[Download ICOM IC-M710 VFO Controller v1.0.5](https://github.com/4s6ggs/icom-icm710-vfo/releases/latest)**
+
+The Windows executable is provided as a ready-to-run `.exe` file. No Python installation is required.
+
+**File:** `ICOM_M710_VFO_Controller.exe`
+
+**SHA-256:**
+
+```text
+60d02d21b5468971dfd9acc787fdb89184801a780a25e24daa7bb770353b08d7
+```
+
+### Installation
+
+1. Download `ICOM_M710_VFO_Controller.exe`.
+2. Save it anywhere on your Windows PC.
+3. Double-click the EXE to start the controller.
+4. Connect the ICOM IC-M710 using the appropriate serial interface.
+5. Select the correct COM port and baud rate.
+
+### Verify the Download
+
+Open Command Prompt in the folder containing the EXE and run:
+
+```bat
+certutil -hashfile ICOM_M710_VFO_Controller.exe SHA256
+```
+
+Compare the result with the SHA-256 value above.
+
 
 **[⬇ Download ICOM_M710_VFO_Controller.exe](https://github.com/4s6ggs/icom-icm710-vfo/releases/latest)**
 
