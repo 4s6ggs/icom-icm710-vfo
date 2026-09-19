@@ -1,4 +1,5 @@
 # ICOM IC-M710 VFO Controller
+![ICOM IC-M710 VFO Controller](screenshot.png)
 
 **Windows desktop VFO controller for the ICOM IC-M710**
 
