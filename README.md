@@ -14,7 +14,7 @@ Developed by **4S6GGS**
 
 ## ⬇️ Windows Download
 
-### Latest Release — v1.0.5
+### Latest Release
 
 [Download the latest release](https://github.com/4s6ggs/icom-icm710-vfo/releases/latest?utm_source=chatgpt.com)
 
