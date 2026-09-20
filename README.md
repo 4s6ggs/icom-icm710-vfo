@@ -5,7 +5,7 @@
 **Radio:** ICOM IC-M710
 **Platform:** Windows
 
-![ICOM IC-M710 VFO Controller v1.0.6](screen-v1.0.6.png)
+![ICOM IC-M710 VFO Controller v1.0.6](screenshot-v1.0.6.png)
 
 *Current v1.0.6 interface*
 
@@ -95,13 +95,9 @@ Two tuning modes are available:
 * **MANUAL**
 * **AUTO ACCELERATION**
 
-The acceleration range can be configured from the controller interface.
-
 ---
 
 ## CI-V Serial Settings
-
-Default settings:
 
 | Setting       | Default |
 | ------------- | ------- |
@@ -110,7 +106,7 @@ Default settings:
 | Controller ID | 90      |
 | Radio ID      | 01      |
 
-The available baud rates are:
+Available baud rates:
 
 * 1200
 * 2400
@@ -132,8 +128,6 @@ Download the required version from the **Releases** section of this repository a
 
 ## Default Startup
 
-The controller starts with:
-
 * Frequency: **14.2000 MHz**
 * Mode: **USB**
 * VFO range: **FULL**
@@ -150,15 +144,15 @@ The controller starts with:
 
 Current release.
 
-Executable:
+**Executable:**
 
 `ICOM_M710_VFO_Controller_1.0.6.exe`
 
 ### v1.0.5
 
-Previous release retained for version history and compatibility reference.
+Previous release retained for version history.
 
-Executable:
+**Executable:**
 
 `ICOM_M710_VFO_Controller.exe`
 
@@ -166,9 +160,9 @@ Executable:
 
 ## File Integrity
 
-SHA-256 checksums are provided for released executable files where available.
+SHA-256 checksums should be verified against the actual released executable.
 
-For v1.0.6, the checksum should be verified against the actual downloaded executable.
+The v1.0.6 checksum will be added after calculating it from the final executable.
 
 ---
 
