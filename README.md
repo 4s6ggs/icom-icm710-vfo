@@ -1,6 +1,6 @@
 # ICOM IC-M710 VFO Controller
 
-**Professional Windows VFO control software for the ICOM IC-M710**
+**Windows desktop VFO controller for the ICOM IC-M710 HF Marine/General Coverage Transceiver**
 
 **Developed by 4S6GGS**
 
@@ -10,15 +10,19 @@
 
 ### ICOM IC-M710 VFO Controller — v1.0.6
 
-**Current Beta release: `v1.0.6`**
+**Current release:** `v1.0.6`
 
-**Real-Time S-Meter**
-
-Portable Windows application — no Python installation required.
+Version 1.0.6 adds a **real-time S-Meter** for the ICOM IC-M710.
 
 ### Download
 
+**Windows executable:**
+
 `ICOM_M710_VFO_Controller_1.0.6.exe`
+
+No Python installation is required to run the compiled Windows executable.
+
+[View all releases](https://github.com/4s6ggs/icom-icm710-vfo/releases)
 
 ---
 
@@ -34,369 +38,384 @@ Portable Windows application — no Python installation required.
 
 ---
 
-# Overview
+## Overview
 
-ICOM IC-M710 VFO Controller is a Windows desktop application designed to provide computer-based control of the ICOM IC-M710 through its CI-V serial interface.
+ICOM IC-M710 VFO Controller is a Windows desktop application for controlling the ICOM IC-M710 through its CI-V serial interface.
 
-The application provides frequency control, operating-mode selection, band shortcuts, mouse-wheel tuning, RX/TX status indication, real-time signal-strength monitoring, serial communication configuration, and other radio-control functions through a graphical user interface.
-
----
-
-# Features
-
-* Full VFO frequency control
-* Configured VFO range: **1.6000–30.0000 MHz**
-* Amateur radio band quick selection
-* USB
-* LSB
-* AM
-* AFS
-* CW
-* FSK
-* Frequency readback
-* RX/TX status indication
-* Remote-control status
-* Speaker mute control
-* Volume control
-* CI-V serial communication
-* COM-port selection
-* Configurable baud rate
-* Radio ID configuration
-* Controller ID configuration
-* Mouse-wheel VFO tuning
-* Manual tuning-speed selection
-* Automatic tuning acceleration
-* **Real-time S-Meter**
-* Portable Windows executable
+The controller provides frequency control, amateur-band quick access, operating-mode selection, mouse-wheel VFO tuning, RX/TX status, radio synchronization, audio controls, and real-time signal-strength monitoring.
 
 ---
 
-# Real-Time S-Meter
+## v1.0.6 — Real-Time S-Meter
 
-Version **1.0.6** adds real-time signal-strength monitoring.
+Version 1.0.6 adds real-time signal-strength monitoring.
 
-### S-Meter Features
+### S-Meter
 
-* S0–S8 signal-level indication
-* Automatic signal polling while connected and receiving
-* Approximately 300 ms polling interval
-* CI-V `SIGM` / `ALY` response handling
-* Signal polling stops during TX
-* S-Meter resets to S0 when disconnected
+- Real-time S-meter display
+- S0–S8 signal-strength indication
+- Automatic polling every 300 ms while connected and receiving
+- ICOM IC-M710 `SIGM` / `ALY` response parsing
+- S-meter resets to S0 when disconnected
+- Polling automatically stops during TX
+- Signal-level range: 0–8
 
-The S-Meter display is intended to provide a live indication of received signal strength from the connected IC-M710.
+### S-Meter CI-V Command
+
+```text
+PICOA,90,<RADIO_ID>,SIGM,
+```
 
 ---
 
-# VFO Frequency Range
+## Features
 
-The controller provides a configured full-VFO range of:
+- Full VFO frequency control
+- Configured VFO range: **1.6000–30.0000 MHz**
+- Amateur-band quick selection
+- USB, LSB, AM, AFS, CW and FSK modes
+- Frequency readback
+- RX/TX status display
+- Remote ON/OFF status
+- Volume control
+- Speaker MUTE/UNMUTE
+- Serial CI-V communication
+- COM-port selection
+- Baud-rate selection
+- Radio ID configuration
+- Controller ID configuration
+- Mouse-wheel VFO tuning
+- Manual tuning-speed selection
+- Automatic tuning acceleration
+- Real-time S-Meter
+- Windows portable executable
+
+---
+
+## Amateur Radio Bands
+
+| Band | Frequency Range |
+|---|---|
+| 160 m | 1.800–2.000 MHz |
+| 80 m | 3.500–4.000 MHz |
+| 60 m | 5.250–5.450 MHz |
+| 40 m | 7.000–7.300 MHz |
+| 30 m | 10.100–10.150 MHz |
+| 20 m | 14.000–14.350 MHz |
+| 17 m | 18.068–18.168 MHz |
+| 15 m | 21.000–21.450 MHz |
+| 12 m | 24.890–24.990 MHz |
+| 10 m | 28.000–29.700 MHz |
+
+The controller also supports the complete configured VFO range:
 
 **1.6000 MHz → 30.0000 MHz**
 
 ---
 
-# Amateur Radio Band Shortcuts
+## Operating Modes
 
-| Band  | Frequency Range   | Default Start |
-| ----- | ----------------- | ------------- |
-| 160 m | 1.800–2.000 MHz   | 1.800 MHz     |
-| 80 m  | 3.500–4.000 MHz   | 3.500 MHz     |
-| 60 m  | 5.250–5.450 MHz   | 5.250 MHz     |
-| 40 m  | 7.000–7.300 MHz   | 7.000 MHz     |
-| 30 m  | 10.100–10.150 MHz | 10.100 MHz    |
-| 20 m  | 14.000–14.350 MHz | 14.000 MHz    |
-| 17 m  | 18.068–18.168 MHz | 18.068 MHz    |
-| 15 m  | 21.000–21.450 MHz | 21.000 MHz    |
-| 12 m  | 24.890–24.990 MHz | 24.890 MHz    |
-| 10 m  | 28.000–29.700 MHz | 28.000 MHz    |
+- USB — Upper Side Band
+- LSB — Lower Side Band
+- AM — Amplitude Modulation
+- AFS
+- CW — Continuous Wave
+- FSK — Frequency Shift Keying
 
 ---
 
-# VFO Tuning
+## VFO Tuning
 
-The mouse wheel provides rapid frequency adjustment.
-
-## Manual Tuning
+The mouse wheel can be used to tune the VFO.
 
 Available tuning steps:
 
-* 100 Hz
-* 1 kHz
-* 10 kHz
-* 100 kHz
-* 1 MHz
+- 100 Hz
+- 1 kHz
+- 10 kHz
+- 100 kHz
+- 1 MHz
 
-## Automatic Acceleration
+### Manual Mode
 
-The controller can automatically increase the tuning step while the mouse wheel is being operated.
+Select the required tuning step manually.
 
-The acceleration mode provides:
+### Auto Acceleration
 
-* Start tuning level
-* Maximum tuning level
-* Automatic step acceleration
-* Reset control
+The tuning speed automatically increases while the mouse wheel is being used.
+
+The maximum acceleration level can be selected from the controller.
 
 Press **ESC** to stop active wheel tuning.
 
 ---
 
-# Operating Modes
+## Radio Control
 
-| Mode | Description            |
-| ---- | ---------------------- |
-| USB  | Upper Side Band        |
-| LSB  | Lower Side Band        |
-| AM   | Amplitude Modulation   |
-| AFS  | AFS mode               |
-| CW   | Continuous Wave        |
-| FSK  | Frequency Shift Keying |
+The application communicates with the IC-M710 using the ICOM CI-V serial interface.
 
----
+Supported controller functions include:
 
-# CI-V Serial Communication
-
-The controller communicates with the IC-M710 through the ICOM CI-V serial interface.
-
-## Default Configuration
-
-| Parameter     | Default |
-| ------------- | ------- |
-| COM Port      | COM1    |
-| Baud Rate     | 4800    |
-| Controller ID | 90      |
-| Radio ID      | 01      |
-
-## Supported Baud Rates
-
-* 1200
-* 2400
-* 4800
-* 9600
-* 19200
-
-The actual settings must match the configuration of the connected radio and CI-V interface.
+- Frequency setting
+- Frequency reading
+- VFO tuning
+- Operating-mode control
+- RX/TX status
+- Remote status
+- Speaker mute
+- Volume control
+- Radio synchronization
+- Serial communication status
+- Signal-strength monitoring
 
 ---
 
-# RX / TX Status
+## Serial Communication
 
-The application provides a graphical indication of the radio state:
+### Default Settings
 
-* RX — Receive
-* TX — Transmit
+| Setting | Default |
+|---|---|
+| COM Port | COM1 |
+| Baud Rate | 4800 |
+| Controller ID | 90 |
+| Radio ID | 01 |
 
-The interface also provides a remote-control status indication.
+### Available Baud Rates
 
----
+- 1200
+- 2400
+- 4800
+- 9600
+- 19200
 
-# Audio Controls
-
-The controller provides available audio-related controls including:
-
-* Speaker mute
-* Volume control
-
-Actual operation depends on the functions supported by the IC-M710 and the CI-V interface.
-
----
-
-# System Requirements
-
-## Operating System
-
-* Windows 10
-* Windows 11
-
-## Hardware
-
-* ICOM IC-M710
-* Compatible CI-V interface
-* Available Windows COM port
-
-## Software
-
-The portable EXE does not require Python to be installed.
+Select the correct COM port and baud rate for the connected CI-V interface.
 
 ---
 
-# Installation
+## System Requirements
 
-The current release is provided as a portable Windows executable.
+### Operating System
 
-### Installation Procedure
+- Windows 10
+- Windows 11
 
-1. Download the latest release from GitHub.
-2. Connect the IC-M710 CI-V interface to the computer.
-3. Start the application.
+### Hardware
+
+- ICOM IC-M710
+- Compatible CI-V serial interface
+- Available Windows COM port
+
+### Software
+
+The compiled Windows application does not require Python to be installed.
+
+---
+
+## Installation
+
+### Portable Version
+
+1. Download `ICOM_M710_VFO_Controller_1.0.6.exe` from the v1.0.6 release.
+2. Connect the IC-M710 CI-V interface.
+3. Start the executable.
 4. Select the correct COM port.
 5. Select the correct baud rate.
-6. Verify the Radio ID.
+6. Confirm the Radio ID.
 7. Press **CONNECT**.
 
-No traditional installation package is required for the portable version.
+The application is portable and does not require a traditional Windows installation.
 
 ---
 
-# Default Application State
+## Default Application Settings
 
-The controller starts with the following default operating values:
+On first startup, the controller uses:
 
-| Parameter     | Default            |
-| ------------- | ------------------ |
-| Frequency     | 14.2000 MHz        |
-| Mode          | USB                |
-| VFO Range     | FULL               |
-| VFO Range     | 1.6000–30.0000 MHz |
-| COM Port      | COM1               |
-| Baud Rate     | 4800               |
-| Controller ID | 90                 |
-| Radio ID      | 01                 |
-| Wheel Mode    | MANUAL             |
-| Wheel Step    | 100 Hz             |
-| Auto Maximum  | 1 MHz              |
-| TRX State     | RX                 |
-| Remote Status | OFF                |
+| Setting | Default |
+|---|---|
+| COM Port | COM1 |
+| Baud Rate | 4800 |
+| Controller ID | 90 |
+| Radio ID | 01 |
+| Frequency | 14.2000 MHz |
+| Mode | USB |
+| VFO Range | FULL |
+| Wheel Mode | MANUAL |
+| Wheel Step | 100 Hz |
+| Auto Maximum | 1 MHz |
+| TRX State | RX |
+| Remote Status | OFF |
 
 ---
 
-# Releases
+## Connection
 
-## v1.0.6 — Current Release
+Before connecting:
+
+1. Make sure the IC-M710 is powered on.
+2. Connect the CI-V interface to the computer.
+3. Confirm the Windows COM-port number.
+4. Select the COM port in the application.
+5. Select the radio's baud rate.
+6. Confirm the Radio ID.
+7. Press **CONNECT**.
+
+The connection status is displayed in the controller window.
+
+---
+
+## RX / TX Status
+
+The controller provides visual RX/TX status indication.
+
+**RX**  
+Indicates receive operation.
+
+**TX**  
+Indicates transmit operation.
+
+The application also displays remote-control status.
+
+S-Meter polling is active while connected and receiving and is stopped during TX.
+
+---
+
+## Audio Controls
+
+The controller includes radio audio-related controls such as:
+
+- Speaker mute
+- Volume control
+- Radio status synchronization
+
+Actual operation depends on the functions supported by the connected IC-M710 and CI-V interface.
+
+---
+
+## Releases
+
+### v1.0.6 — Current Release
 
 **ICOM IC-M710 VFO Controller v1.0.6**
 
-### Main Addition
+Main addition:
 
 **Real-Time S-Meter**
 
-The v1.0.6 release adds real-time signal-strength monitoring with S0–S8 indication and automatic CI-V signal polling while receiving.
+Release tag:
 
-### Download
+`v1.0.6`
+
+Executable:
 
 `ICOM_M710_VFO_Controller_1.0.6.exe`
 
-### SHA-256
+[View v1.0.6 release](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.6)
 
-`2956fceac0918cfa544eafabefab704a66dc9cc44892e3ac388f59fa62ac584d`
-
----
-
-## v1.0.5 — Previous Release
+### v1.0.5 — Previous Release
 
 **ICOM IC-M710 VFO Controller v1.0.5**
 
-Previous stable release.
+Previous release retained in the GitHub release history.
 
-### Download
+Executable:
 
 `ICOM_M710_VFO_Controller.exe`
 
-The v1.0.5 release remains available for users who need the previous version.
+[View all releases](https://github.com/4s6ggs/icom-icm710-vfo/releases)
 
 ---
 
-# Version History
+## SHA-256
 
-| Version | Status   | Description                           |
-| ------- | -------- | ------------------------------------- |
-| v1.0.6  | Current  | Real-Time S-Meter and current release |
-| v1.0.5  | Previous | Previous stable release               |
+### v1.0.6
 
-Older releases remain available through the GitHub Releases archive.
+Executable:
 
----
+`ICOM_M710_VFO_Controller_1.0.6.exe`
 
-# File Integrity
-
-SHA-256 checksums correspond to the exact executable published with each release.
-
-## v1.0.6
+SHA-256:
 
 ```text
 2956fceac0918cfa544eafabefab704a66dc9cc44892e3ac388f59fa62ac584d
 ```
 
-Generate the checksum on Windows with:
+Verify on Windows with:
 
 ```powershell
 Get-FileHash .\ICOM_M710_VFO_Controller_1.0.6.exe -Algorithm SHA256
 ```
 
-## v1.0.5
+### v1.0.5
 
-The v1.0.5 checksum is retained with the historical release information.
+Executable:
 
-Do not use the v1.0.5 checksum for v1.0.6.
+`ICOM_M710_VFO_Controller.exe`
+
+SHA-256:
+
+```text
+60d02d21b5468971dfd9acc787fdb89184801a780a25e24daa7bb770353b08d7
+```
 
 ---
 
-# Troubleshooting
+## Troubleshooting
 
-## Cannot Connect to Radio
+### Cannot Connect to Radio
 
 Check:
 
-1. IC-M710 power.
-2. CI-V interface connection.
-3. Windows COM-port number.
-4. Baud rate.
-5. Radio ID.
-6. CI-V wiring.
-7. Another application is not already using the COM port.
+1. The IC-M710 is powered on.
+2. The CI-V interface is connected correctly.
+3. The correct Windows COM port is selected.
+4. The baud rate matches the radio configuration.
+5. The Radio ID is correct.
+6. No other application is using the COM port.
 
-## Wrong Frequency or No Frequency Response
+### Frequency Does Not Change
 
 Check the CI-V connection and confirm that the configured Radio ID matches the radio.
 
-## Connection Drops
-
-Check the physical serial/CI-V connection and confirm that no other software is accessing the same COM port.
-
-## S-Meter Does Not Update
+### S-Meter Does Not Update
 
 Check:
 
 1. The radio is connected.
-2. The application shows RX.
+2. The application is showing RX.
 3. The CI-V interface is operating correctly.
 4. The configured Radio ID is correct.
 
-S-Meter polling is active while connected and receiving and stops during TX.
+The S-Meter polling function operates while connected and receiving and stops during TX.
 
 ---
 
-# Safety and Operating Notes
+## Project
 
-This software communicates directly with radio equipment.
+**GitHub Repository**
 
-Before transmitting:
-
-* Verify the selected frequency.
-* Verify the operating mode.
-* Verify the antenna and RF system.
-* Confirm the radio is configured correctly.
-* Observe applicable radio regulations and operating procedures.
-
-The software should be used with appropriate care when connected to transmitting equipment.
-
----
-
-# Project
-
-**GitHub Repository:**
 https://github.com/4s6ggs/icom-icm710-vfo
 
-**Latest Release:**
-https://github.com/4s6ggs/icom-icm710-vfo/releases/latest
+**Latest Release**
 
-**All Releases:**
-https://github.com/4s6ggs/icom-icm710-vfo/releases
+https://github.com/4s6ggs/icom-icm710-vfo/releases/latest
 
 ---
 
-# Developer
+## Disclaimer
+
+This is an independent software project for controlling the ICOM IC-M710 through its serial/CI-V interface.
+
+ICOM and IC-M710 are trademarks of their respective owner.
+
+Use the software at your own risk and verify the correct CI-V configuration for your equipment before operating the radio.
+
+The developer is not responsible for damage resulting from incorrect configuration, wiring, serial-interface settings, or operation of connected equipment.
+
+---
+
+## Developer
 
 **4S6GGS**
 
@@ -404,18 +423,6 @@ https://github.com/4s6ggs/icom-icm710-vfo/releases
 
 ---
 
-# Disclaimer
+## License
 
-This is an independent software project.
-
-ICOM and IC-M710 are trademarks of their respective owner.
-
-The software is provided for controlling compatible equipment through its available CI-V interface. Users are responsible for verifying their hardware configuration, serial settings, radio configuration, and operating environment.
-
-The developer is not responsible for damage resulting from incorrect wiring, configuration, operation, or use of the software.
-
----
-
-# License
-
-See the repository license information for applicable terms.
+See the `LICENSE` file included with this repository for the applicable license terms.
