@@ -10,7 +10,7 @@
 
 ### ICOM IC-M710 VFO Controller — v1.0.6
 
-**Current stable release: `v1.0.6`**
+**Current Beta release: `v1.0.6`**
 
 **Real-Time S-Meter**
 
