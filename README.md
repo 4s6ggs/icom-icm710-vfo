@@ -28,9 +28,6 @@
   <img src="screenshot/screenshot-v1.0.7.png" alt="ICOM IC-M710 VFO Controller v1.0.7" width="900">
 </p>
 
-<p align="center">
-  <img src="screenshot/screenshot-v1.0.7-2.png" alt="ICOM IC-M710 VFO Controller v1.0.7" width="900">
-</p>
 
 ---
 
