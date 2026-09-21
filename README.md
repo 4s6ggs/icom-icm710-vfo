@@ -1,4 +1,4 @@
-# ICOM IC-M710 Controller
+# ICOM IC-M710 VFO Controller
 
 **Professional Windows VFO control software for the ICOM IC-M710**
 
@@ -215,13 +215,13 @@ The RIT control allows the operator to make small receiver-frequency adjustments
 
 # Operating Modes
 
-| Mode | Description            |
-| ---- | ---------------------- |
-| USB  | Upper Side Band        |
-| LSB  | Lower Side Band        |
-| AM   | Amplitude Modulation   |
-| AFS  | AFS mode               |
-| CW   | Continuous Wave        |
+| Mode | Description |
+| ---- | ----------- |
+| USB  | Upper Side Band |
+| LSB  | Lower Side Band |
+| AM   | Amplitude Modulation |
+| AFS  | AFS mode |
+| CW   | Continuous Wave |
 | FSK  | Frequency Shift Keying |
 
 ---
@@ -335,21 +335,21 @@ No traditional installation package is required for the portable version.
 
 The controller starts with the following default operating values:
 
-| Parameter     | Default            |
-| ------------- | ------------------ |
-| Frequency     | 14.2000 MHz        |
-| Mode          | USB                |
-| VFO Range     | FULL               |
-| VFO Frequency Range | 1.6000–30.0000 MHz |
-| COM Port      | COM1               |
-| Baud Rate     | 4800               |
-| Controller ID | 90                 |
-| Radio ID      | 01                 |
-| Wheel Mode    | MANUAL             |
-| Wheel Step    | 100 Hz             |
-| Auto Maximum  | 1 MHz              |
-| TRX State     | RX                 |
-| Remote Status | OFF                 |
+| Parameter          | Default              |
+| ------------------ | -------------------- |
+| Frequency          | 14.2000 MHz          |
+| Mode               | USB                  |
+| VFO Range          | FULL                 |
+| VFO Frequency Range| 1.6000–30.0000 MHz   |
+| COM Port           | COM1                 |
+| Baud Rate          | 4800                 |
+| Controller ID      | 90                   |
+| Radio ID           | 01                   |
+| Wheel Mode         | MANUAL               |
+| Wheel Step         | 100 Hz               |
+| Auto Maximum       | 1 MHz                |
+| TRX State          | RX                   |
+| Remote Status      | OFF                  |
 
 ---
 
@@ -375,27 +375,5 @@ The controller starts with the following default operating values:
 
 ### SHA-256
 
-The SHA-256 checksum for v1.0.7 should be generated from the exact published executable.
-
-Do not use the checksum from an earlier release.
-
----
-
-## v1.0.6 — Previous Release
-
-**ICOM IC-M710 VFO Controller v1.0.6**
-
-### Main Addition
-
-**Real-Time S-Meter**
-
-The v1.0.6 release added real-time signal-strength monitoring with S0–S8 indication and automatic CI-V signal polling while receiving.
-
-### Download
-
-`ICOM_M710_VFO_Controller_1.0.6.exe`
-
-### SHA-256
-
 ```text
-2956fceac0918cfa544eafabefab704a66dc9cc44892e3ac388f59fa62ac584d
+85e167451da74dc6a0ab8c68471e32b842706fe0b8516f771bec5275ed98b8b1
