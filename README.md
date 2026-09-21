@@ -1,292 +1,358 @@
 # 📻 ICOM IC-M710 VFO Controller
 
-### 🎛️ Professional Windows VFO & Remote Control
-
-<p align="center">
-  <strong>ICOM IC-M710</strong><br>
-  <strong>VFO CONTROLLER</strong><br>
-  <sub>Developed by 4S6GGS</sub>
-</p>
-
-<p align="center">
-
-![Version](https://img.shields.io/badge/Version-v1.0.7-blue?style=for-the-badge)
-
-![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011-green?style=for-the-badge)
-
-![Radio](https://img.shields.io/badge/Radio-ICOM%20IC--M710-orange?style=for-the-badge)
-
-![Interface](https://img.shields.io/badge/Interface-CI--V-red?style=for-the-badge)
-
-</p>
-
----
-
-## 📸 v1.0.7
-
 <p align="center">
   <img src="screenshot/screenshot-v1.0.7.png" alt="ICOM IC-M710 VFO Controller v1.0.7" width="900">
 </p>
 
-
----
-
-# 🚀 Download
-
-## 🆕 Latest — v1.0.7
+<h3 align="center">🎛️ Professional Windows VFO & Remote Control</h3>
 
 <p align="center">
-
-### 📥 [DOWNLOAD ICOM IC-M710 VFO CONTROLLER v1.0.7](https://github.com/4s6ggs/icom-icm710-vfo/releases/latest)
-
+  A modern Windows control application for the
+  <strong>ICOM IC-M710</strong> HF Marine Transceiver using the
+  <strong>CI-V interface</strong>.
 </p>
 
-**Windows portable application**
+<p align="center">
+  <a href="https://github.com/4s6ggs/icom-icm710-vfo/releases/latest">
+    <img src="https://img.shields.io/badge/⬇️%20DOWNLOAD-v1.0.7-success?style=for-the-badge" alt="Download v1.0.7">
+  </a>
+</p>
 
-* ✅ No Python installation required
-* ✅ No installer required
-* ✅ Run the `.exe` directly
-* ✅ Windows 10 / Windows 11
-
-> The v1.0.7 executable must be uploaded to the GitHub Release before the direct executable download becomes available.
-
----
-
-# 🎛️ What Is It?
-
-**ICOM IC-M710 VFO Controller** is a Windows graphical controller designed for operating the **ICOM IC-M710** through a compatible serial / CI-V interface.
-
-It provides a modern control panel for frequency, mode, tuning, S-Meter, RIT, RF Level, audio and communication monitoring.
+<p align="center">
+  <img src="https://img.shields.io/badge/VERSION-v1.0.7-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/PLATFORM-Windows%2010%20%2F%2011-0078D4?style=flat-square">
+  <img src="https://img.shields.io/badge/RADIO-ICOM%20IC--M710-red?style=flat-square">
+  <img src="https://img.shields.io/badge/INTERFACE-CI--V-orange?style=flat-square">
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-brightgreen?style=flat-square">
+</p>
 
 ---
 
-# ✨ Main Features
+# 📥 Download
+
+## ⭐ Latest Release — v1.0.7
+
+<p align="center">
+  <a href="https://github.com/4s6ggs/icom-icm710-vfo/releases/latest">
+    <img src="https://img.shields.io/badge/🚀%20DOWNLOAD%20ICOM%20IC--M710%20VFO%20CONTROLLER-v1.0.7-2ea44f?style=for-the-badge&logo=github" alt="Download">
+  </a>
+</p>
+
+**Windows 10 / Windows 11**
+
+The application is provided as a compiled Windows executable, so **Python is not required** to run the released `.exe`.
+
+👉 **[Download the latest release from GitHub](https://github.com/4s6ggs/icom-icm710-vfo/releases/latest)**
+
+> ⚠️ Make sure the v1.0.7 executable is uploaded to the GitHub Release assets before distributing the release.
+
+---
+
+# 📸 Screenshots
+
+## 🆕 v1.0.7 — Main Interface
+
+<p align="center">
+  <img src="screenshot/screenshot-v1.0.7.png" alt="ICOM IC-M710 VFO Controller v1.0.7 Main Interface" width="900">
+</p>
+
+## 📡 v1.0.7 — Communication / Control Interface
+
+<p align="center">
+  <img src="screenshot/screenshot-v1.0.7-2.png" alt="ICOM IC-M710 VFO Controller v1.0.7 Communication Interface" width="900">
+</p>
+
+---
+
+# ✨ Features
 
 <table>
 <tr>
-<td align="center">🎛️<br><b>Full VFO</b><br>1.6–30 MHz</td>
-<td align="center">📻<br><b>Band Control</b><br>10 Amateur Bands</td>
-<td align="center">🖱️<br><b>Mouse Tuning</b><br>100 Hz–1 MHz</td>
-<td align="center">⚡<br><b>Acceleration</b><br>Auto Tuning</td>
+<td width="50%">
+
+### 🎛️ VFO Control
+
+* Full VFO operation
+* 1.6000–30.0000 MHz
+* Direct frequency entry
+* Frequency readback
+* Fast tuning
+* Mouse-wheel tuning
+
+</td>
+<td width="50%">
+
+### ⚡ Tuning System
+
+* 100 Hz
+* 1 kHz
+* 10 kHz
+* 100 kHz
+* 1 MHz
+* Manual tuning
+* Automatic acceleration
+
+</td>
 </tr>
 
 <tr>
-<td align="center">🎚️<br><b>Modes</b><br>USB / LSB / AM</td>
-<td align="center">📶<br><b>S-Meter</b><br>Real Time</td>
-<td align="center">🎯<br><b>RIT</b><br>Fine Tuning</td>
-<td align="center">📊<br><b>RF Level</b><br>Control</td>
+<td>
+
+### 📻 Amateur Bands
+
+Quick selection for:
+
+* 160 m
+* 80 m
+* 60 m
+* 40 m
+* 30 m
+* 20 m
+* 17 m
+* 15 m
+* 12 m
+* 10 m
+
+</td>
+<td>
+
+### 🎚️ Radio Control
+
+* USB
+* LSB
+* AM
+* AFS
+* CW
+* FSK
+* RX / TX indication
+* Remote status
+
+</td>
 </tr>
 
 <tr>
-<td align="center">🔌<br><b>COM Setup</b><br>Serial Control</td>
-<td align="center">🖥️<br><b>COM Monitor</b><br>CI-V Traffic</td>
-<td align="center">🔊<br><b>Volume</b><br>Audio Control</td>
-<td align="center">🟢<br><b>RX / TX</b><br>Status</td>
+<td>
+
+### 📊 Monitoring
+
+* Real-time S-Meter
+* S0–S8 indication
+* RX/TX status
+* Frequency readback
+* Communication monitoring
+* Serial status
+
+</td>
+<td>
+
+### ⚙️ Radio Settings
+
+* RIT control
+* RF Level control
+* Volume control
+* Speaker mute
+* COM Port configuration
+* Baud-rate selection
+
+</td>
 </tr>
 </table>
 
 ---
 
-# 🆕 v1.0.7
+# 🆕 What's New in v1.0.7
 
-## 🔌 Communication & Control
+## 🔌 Communication Control
 
-The **v1.0.7** release expands the controller with dedicated communication and additional radio controls.
-
-### Added
-
-| 🆕  | Feature                            |
-| --- | ---------------------------------- |
-| 🔌  | Dedicated Communication / COM page |
-| 🖥️ | COM Port Monitor                   |
-| 🎯  | RIT Control                        |
-| 📊  | RF Level Control                   |
-
-### Improved
-
-* 🔄 Communication workflow
-* 🖥️ Serial monitoring
-* 📡 Radio-control operation
-* ⚙️ Communication configuration
-
----
-
-# 📶 v1.0.6
-
-## Real-Time S-Meter
-
-The **v1.0.6** release introduced real-time signal-strength monitoring.
+Version **1.0.7** introduces a dedicated communication-oriented interface for easier control and monitoring of the CI-V connection.
 
 ### Added
 
-* 📶 S0–S8 S-Meter
-* 🔄 Automatic polling
-* 🟢 RX monitoring
-* 🔴 TX-aware operation
-* 🔄 S0 reset after disconnect
+* 🔌 Dedicated Communication / COM page
+* 🖥️ COM Port Monitor
+* 🎚️ RIT control
+* 📶 RF Level control
+* 📡 Improved communication workflow
+* 🔍 Better serial communication visibility
+* ⚙️ Improved control organization
+
+The communication interface makes it easier to diagnose and monitor the connection between the PC and IC-M710.
 
 ---
 
-# 🎛️ v1.0.5
+# 📈 Version History
 
-## Core VFO Controller
+## 🟢 v1.0.7 — Communication & Control
 
-The original controller release established the main radio-control functions.
+**Current Version**
 
-* 🎛️ Frequency control
-* 📻 Band selection
-* 🎚️ Operating modes
-* 🖱️ Mouse-wheel tuning
-* ⚡ Auto acceleration
-* 🔄 Frequency readback
-* 🟢 RX / 🔴 TX
-* 📡 Remote status
-* 🔊 Volume
-* 🔇 Speaker mute
-* 🔌 CI-V communication
+### Highlights
+
+* Dedicated Communication / COM interface
+* COM Port Monitor
+* RIT control
+* RF Level control
+* Improved CI-V communication workflow
+* Improved user interface organization
+* Enhanced radio control experience
 
 ---
 
-# 📡 VFO CONTROL
+## 🔵 v1.0.6 — Real-Time S-Meter
 
-## Full VFO Range
+### Highlights
+
+* 📊 Real-time S-Meter
+* S0–S8 display
+* Automatic S-Meter polling
+* RX/TX-aware monitoring
+* S-Meter reset after disconnect
+* Improved monitoring interface
+
+---
+
+## 🟠 v1.0.5 — Core VFO Controller
+
+### Highlights
+
+* Full VFO frequency control
+* Amateur-band quick selection
+* Operating-mode control
+* Mouse-wheel tuning
+* Automatic tuning acceleration
+* Frequency readback
+* RX/TX status
+* Remote status
+* Volume control
+* Speaker mute
+* CI-V serial communication
+
+---
+
+# 🎛️ VFO CONTROL
+
+## Full VFO
+
+The controller provides a wide tuning range:
 
 ```text
-1.6000 MHz  ═══════════════════════════════════  30.0000 MHz
+1.6000 MHz ─────────────────────────────── 30.0000 MHz
 ```
 
-### 🎚️ Tuning Steps
+### Frequency Range
 
-|        Step | Use           |
-| ----------: | ------------- |
-|  **100 Hz** | Fine tuning   |
-|   **1 kHz** | Normal tuning |
-|  **10 kHz** | Fast tuning   |
-| **100 kHz** | Band movement |
-|   **1 MHz** | Rapid tuning  |
-
-### 🖱️ Mouse Wheel
-
-Turn the mouse wheel over the frequency controller to tune the VFO.
-
-### ⚡ Auto Acceleration
-
-The tuning step increases automatically while continuous wheel tuning is detected.
-
-Press **ESC** to stop active tuning.
+| Parameter    |       Value |
+| ------------ | ----------: |
+| Minimum      |  1.6000 MHz |
+| Maximum      | 30.0000 MHz |
+| Default      | 14.2000 MHz |
+| Default Mode |         USB |
 
 ---
 
-# 📻 AMATEUR BANDS
+# ⚡ Mouse-Wheel Tuning
 
-| Band     |             Range |      Start |
-| -------- | ----------------: | ---------: |
-| 🟤 160 m |   1.800–2.000 MHz |  1.800 MHz |
-| 🟤 80 m  |   3.500–4.000 MHz |  3.500 MHz |
-| 🟤 60 m  |   5.250–5.450 MHz |  5.250 MHz |
-| 🟤 40 m  |   7.000–7.300 MHz |  7.000 MHz |
-| 🟤 30 m  | 10.100–10.150 MHz | 10.100 MHz |
-| 🟢 20 m  | 14.000–14.350 MHz | 14.000 MHz |
-| 🟢 17 m  | 18.068–18.168 MHz | 18.068 MHz |
-| 🟢 15 m  | 21.000–21.450 MHz | 21.000 MHz |
-| 🟢 12 m  | 24.890–24.990 MHz | 24.890 MHz |
-| 🟢 10 m  | 28.000–29.700 MHz | 28.000 MHz |
+The mouse wheel can be used as a fast VFO tuning control.
 
----
+| Step | Resolution |
+| ---: | ---------: |
+|    1 |     100 Hz |
+|    2 |      1 kHz |
+|    3 |     10 kHz |
+|    4 |    100 kHz |
+|    5 |      1 MHz |
 
-# 🎚️ OPERATING MODES
+### Manual Mode
+
+The selected tuning step remains fixed.
+
+### Auto Acceleration
+
+The controller can progressively increase the tuning step while the mouse wheel is being used.
+
+This allows:
 
 ```text
-┌───────┬───────┬───────┐
-│  USB  │  LSB  │  AM   │
-├───────┼───────┼───────┤
-│  AFS  │  CW   │  FSK  │
-└───────┴───────┴───────┘
+Fine tuning
+    ↓
+100 Hz
+    ↓
+1 kHz
+    ↓
+10 kHz
+    ↓
+100 kHz
+    ↓
+1 MHz
+    ↓
+Fast frequency movement
 ```
 
-Supported modes:
-
-**USB • LSB • AM • AFS • CW • FSK**
+Press **RESET** to return the wheel-control system to its initial state.
 
 ---
 
-# 📶 S-METER
+# 📻 Amateur Band Quick Access
 
-Real-time signal indication introduced in **v1.0.6**.
+| Band  |   Frequency Range |
+| ----- | ----------------: |
+| 160 m |   1.800–2.000 MHz |
+| 80 m  |   3.500–4.000 MHz |
+| 60 m  |   5.250–5.450 MHz |
+| 40 m  |   7.000–7.300 MHz |
+| 30 m  | 10.100–10.150 MHz |
+| 20 m  | 14.000–14.350 MHz |
+| 17 m  | 18.068–18.168 MHz |
+| 15 m  | 21.000–21.450 MHz |
+| 12 m  | 24.890–24.990 MHz |
+| 10 m  | 28.000–29.700 MHz |
+
+---
+
+# 🎚️ Operating Modes
+
+The controller provides quick access to the supported IC-M710 operating modes:
 
 ```text
-S0  S1  S2  S3  S4  S5  S6  S7  S8
-│   │   │   │   │   │   │   │   │
-└──────────── Signal Level ────────────►
+USB    LSB    AM    AFS    CW    FSK
 ```
 
-### Operation
-
-* 📡 Automatic signal polling
-* 🟢 Active during RX
-* 🔴 Stops during TX
-* 🔄 Returns to S0 after disconnect
+The selected operating mode is displayed directly in the controller interface.
 
 ---
 
-# 🎯 RIT CONTROL
+# 📊 S-Meter
 
-**RIT — Receive Incremental Tuning**
+Introduced in **v1.0.6**, the S-Meter provides real-time signal monitoring.
 
-Provides fine adjustment of the receive frequency without changing the main transmit frequency.
-
-### v1.0.7
-
-**RIT control is available from the main controller.**
-
----
-
-# 📊 RF LEVEL
-
-RF Level control is available from the main controller in **v1.0.7**.
-
----
-
-# 🔊 AUDIO CONTROL
-
-The controller provides:
-
-* 🔊 Volume control
-* 🔇 Speaker MUTE
-* 🔊 Speaker UNMUTE
-
----
-
-# 🟢 RX / 🔴 TX STATUS
+### Display
 
 ```text
-        ┌───────────────┐
-        │      RX       │
-        │   RECEIVE     │
-        └───────────────┘
-
-        ┌───────────────┐
-        │      TX       │
-        │   TRANSMIT    │
-        └───────────────┘
+S0 ─ S1 ─ S2 ─ S3 ─ S4 ─ S5 ─ S6 ─ S7 ─ S8
 ```
 
-The current radio operating state is displayed on the controller.
+The controller automatically polls the radio for signal information and updates the display.
+
+When the connection is lost, the S-Meter is reset.
 
 ---
 
-# 🔌 COMMUNICATION
+# 🔌 Communication
 
-## Default Settings
+The application communicates with the IC-M710 through the radio's **CI-V interface**.
 
-| Parameter     | Default  |
-| ------------- | -------- |
-| COM Port      | **COM1** |
-| Baud Rate     | **4800** |
-| Controller ID | **90**   |
-| Radio ID      | **01**   |
+### Serial Configuration
 
-### Supported Baud Rates
+Default settings:
+
+| Setting       | Default |
+| ------------- | ------- |
+| COM Port      | COM1    |
+| Baud Rate     | 4800    |
+| Controller ID | 90      |
+| Radio ID      | 01      |
+
+Supported baud rates:
 
 ```text
 1200
@@ -298,143 +364,115 @@ The current radio operating state is displayed on the controller.
 
 ---
 
-# 🖥️ COM PORT MONITOR
+# 🖥️ COM Port Monitor
 
-The v1.0.7 Communication page provides a COM Port Monitor for observing serial / CI-V communication.
+The v1.0.7 communication interface includes a COM monitoring function.
 
-```text
-             CI-V COMMUNICATION
+It can be used to observe serial communication and assist with troubleshooting.
 
-       ┌──────────────────────┐
-       │  VFO CONTROLLER      │
-       └──────────┬───────────┘
-                  │
-             TX / RX DATA
-                  │
-                  ▼
-       ┌──────────────────────┐
-       │      IC-M710         │
-       └──────────────────────┘
-```
-
-Useful for:
-
-* 🔍 Troubleshooting
-* 📡 Checking radio responses
-* 🔌 Checking serial communication
-* 🧪 Testing the interface
-
----
-
-# 🆔 RADIO ID
-
-The controller default Radio ID is:
+Typical workflow:
 
 ```text
-01
+PC
+ │
+ │ USB / Serial Interface
+ ▼
+CI-V Interface
+ │
+ │ CI-V Communication
+ ▼
+ICOM IC-M710
 ```
-
-The controller Radio ID must match the radio's configured remote-control ID.
 
 ---
 
-# 🔀 REMT-ID / REMT-IF
+# 🎚️ Radio Controls
 
-These are separate IC-M710 settings.
+The controller provides access to several important radio functions.
 
-### REMT-ID
+### RIT
 
-Radio identification.
+Receiver Incremental Tuning control.
+
+### RF Level
+
+RF level adjustment from the controller interface.
+
+### Volume
+
+Radio audio volume control.
+
+### Speaker
+
+Speaker mute / unmute control.
+
+### Remote
+
+Displays the current remote-control state.
+
+---
+
+# 📡 RX / TX Status
+
+The interface provides a clear transceiver state indicator:
 
 ```text
-REMT-ID = 01
+🟢 RX — Receive
+🔴 TX — Transmit
 ```
 
-### REMT-IF
-
-Remote-control interface selection.
-
-> **REMT-ID and REMT-IF are not the same setting.**
+This provides an immediate visual indication of the radio's operating state.
 
 ---
 
-# 🚀 QUICK START
+# ⚙️ Default Application Settings
 
-## 1️⃣ Connect Hardware
+| Setting       | Default            |
+| ------------- | ------------------ |
+| Frequency     | 14.2000 MHz        |
+| Mode          | USB                |
+| VFO Range     | FULL               |
+| VFO Range     | 1.6000–30.0000 MHz |
+| COM Port      | COM1               |
+| Baud Rate     | 4800               |
+| Controller ID | 90                 |
+| Radio ID      | 01                 |
+| Wheel Mode    | MANUAL             |
+| Wheel Step    | 100 Hz             |
+| Auto Maximum  | 1 MHz              |
+| TRX State     | RX                 |
+| Remote        | OFF                |
+
+---
+
+# 🔧 Hardware Interface
+
+A USB-to-serial interface may be used as part of the PC connection.
+
+For example, a **CP2102-based USB-UART adapter** may be suitable for the USB-to-UART portion of an interface, but the radio-side connection must be designed for the IC-M710 CI-V electrical interface.
+
+> ⚠️ **Important:** Do not connect a generic UART directly to the radio without confirming the IC-M710 connector pinout, CI-V interface requirements, signal levels, and required interface circuitry.
+
+The exact hardware interface is dependent on the transceiver configuration.
+
+---
+
+# 🆔 CI-V Identification
+
+The controller uses separate identifiers for the controller and radio.
 
 ```text
-┌───────────────┐
-│ Windows PC    │
-└───────┬───────┘
-        │
-        │ USB
-        ▼
-┌───────────────┐
-│ USB / Serial  │
-│ Interface     │
-└───────┬───────┘
-        │
-        │ CI-V
-        ▼
-┌───────────────┐
-│ ICOM IC-M710  │
-└───────────────┘
+Controller ID = 90
+Radio ID      = 01
 ```
 
-## 2️⃣ Find COM Port
+### Important
 
-Open:
-
-**Device Manager → Ports (COM & LPT)**
-
-## 3️⃣ Start Controller
-
-Run the Windows `.exe`.
-
-## 4️⃣ Configure Communication
-
-Select:
-
-* COM Port
-* Baud Rate
-* Controller ID
-* Radio ID
-
-## 5️⃣ Connect
-
-Press:
-
-**CONNECT**
-
-## 6️⃣ Test
-
-Check:
-
-**Frequency → Mode → RX/TX → Remote → S-Meter → RIT → RF Level**
+**REMT-ID** and **REMT-IF** are different settings/functions and should not be treated as the same parameter.
 
 ---
 
-# ⚙️ DEFAULT SETTINGS
-
-| Setting       | Value                  |
-| ------------- | ---------------------- |
-| Frequency     | **14.2000 MHz**        |
-| Mode          | **USB**                |
-| VFO           | **FULL**               |
-| VFO Range     | **1.6000–30.0000 MHz** |
-| COM Port      | **COM1**               |
-| Baud          | **4800**               |
-| Controller ID | **90**                 |
-| Radio ID      | **01**                 |
-| Wheel Mode    | **MANUAL**             |
-| Wheel Step    | **100 Hz**             |
-| Auto Maximum  | **1 MHz**              |
-| TRX           | **RX**                 |
-| Remote        | **OFF**                |
-
----
-
-# 💻 SYSTEM REQUIREMENTS
+# 💻 System Requirements
 
 ### Operating System
 
@@ -445,225 +483,241 @@ Check:
 
 * ICOM IC-M710
 * Compatible CI-V interface
-* USB / serial interface
 * Available COM port
 
 ### Software
 
-**Python is not required** when using the compiled Windows executable.
-
----
-
-# 🔧 HARDWARE INTERFACE
-
-A suitable electrical interface must be used between the PC and IC-M710.
+For the compiled `.exe` release:
 
 ```text
-PC
-│
-│ USB
-▼
-USB / Serial
-│
-│ Interface circuitry
-▼
-CI-V
-│
-▼
-ICOM IC-M710
+Python is NOT required.
 ```
 
-⚠️ Verify the connector, pinout, signal levels and interface circuitry before connecting the radio.
+Simply run the Windows executable after connecting the appropriate interface.
 
 ---
 
-# 🔧 CP2102
+# 🚀 Quick Start
 
-A CP2102 USB-to-UART module can be used as part of a suitable interface.
+### 1️⃣ Connect the Radio
 
-The CP2102 does **not** by itself guarantee electrical compatibility with the IC-M710.
+Connect the IC-M710 to the computer using a suitable CI-V interface.
 
-⚠️ Verify the complete radio-side interface before connection.
+### 2️⃣ Start the Application
+
+Run:
+
+```text
+ICOM_M710_VFO_Controller.exe
+```
+
+### 3️⃣ Select COM Port
+
+Choose the serial COM port assigned to the CI-V interface.
+
+### 4️⃣ Select Baud Rate
+
+Use the baud rate configured for the radio/interface.
+
+Default:
+
+```text
+4800
+```
+
+### 5️⃣ Connect
+
+Press:
+
+```text
+CONNECT
+```
+
+### 6️⃣ Select Frequency
+
+Enter a frequency such as:
+
+```text
+14.2000
+```
+
+and press:
+
+```text
+SET
+```
+
+### 7️⃣ Tune
+
+Use:
+
+* Mouse wheel
+* Band buttons
+* Direct frequency entry
 
 ---
 
-# 🛠️ TROUBLESHOOTING
+# 🛠️ Troubleshooting
 
-### ❌ Cannot Connect
+## ❌ Radio does not respond
 
 Check:
 
 * COM port
 * Baud rate
 * Radio ID
-* Controller ID
+* CI-V wiring
+* Interface hardware
+* Radio CI-V configuration
+* Serial connection
+
+---
+
+## ❌ COM port is not shown
+
+Try:
+
+1. Disconnect the USB interface.
+2. Reconnect it.
+3. Press **REFRESH**.
+4. Check Windows Device Manager.
+5. Confirm the USB-to-serial driver is installed.
+
+---
+
+## ❌ Frequency does not change
+
+Check:
+
+* Radio connection
 * CI-V interface
-* Cable
-* Radio power
-* Other programs using the COM port
-
-### ❌ Frequency Does Not Change
-
-Check:
-
-* CI-V connection
-* COM settings
 * Radio ID
-* Controller ID
-* COM Monitor
+* Baud rate
+* COM monitor output
+* CI-V configuration
 
-### ❌ S-Meter Does Not Update
+---
+
+## ❌ S-Meter remains at S0
 
 Check:
 
-* Radio is connected
-* Radio is in RX
-* CI-V communication
-* Radio ID
-
-### ❌ COM Monitor Is Empty
-
-Check:
-
-* COM port
-* USB/serial interface
-* Cable
-* Driver
-* COM-port ownership
+* Radio is connected.
+* CI-V communication is working.
+* The radio is receiving a signal.
+* The COM interface is configured correctly.
 
 ---
 
-# 📋 VERSION HISTORY
+# 📁 Project Structure
 
-## 🆕 v1.0.7
-
-**Communication & Control**
-
-🔌 COM Page • 🖥️ COM Monitor • 🎯 RIT • 📊 RF Level
-
----
-
-## 📶 v1.0.6
-
-**Real-Time S-Meter**
-
-📶 S0–S8 • 🔄 Automatic polling • 🟢 RX / 🔴 TX
-
----
-
-## 🎛️ v1.0.5
-
-**Core VFO Controller**
-
-🎛️ VFO • 📻 Bands • 🎚️ Modes • 🖱️ Tuning • 🔌 CI-V
-
----
-
-# 📦 REPOSITORY STRUCTURE
+The recommended repository structure is:
 
 ```text
 icom-icm710-vfo/
 │
-├── 📁 screenshot/
-│   ├── 🖼️ screenshot-v1.0.7.png
-│   └── 🖼️ screenshot-v1.0.7-2.png
+├── screenshot/
+│   ├── screenshot-v1.0.7.png
+│   └── screenshot-v1.0.7-2.png
 │
-├── 📦 ICOM_M710_VFO_Controller.exe
-├── 📦 ICOM_M710_VFO_Controller_1.0.6.exe
-└── 📄 README.md
+├── ICOM_M710_VFO_Controller.exe
+├── ICOM_M710_VFO_Controller_1.0.6.exe
+│
+└── README.md
 ```
 
 ---
 
-# 🔐 SHA-256
+# 🧩 Technology
 
-## v1.0.6
+The controller is designed as a Windows desktop application using:
 
 ```text
-2956fceac0918cfa544eafabefab704a66dc9cc44892e3ac388f59fa62ac584d
+Python
+Tkinter
+PySerial
+ICOM CI-V
 ```
 
-## v1.0.5
-
-```text
-60d02d21b5468971dfd9acc787fdb89184801a780a25e24daa7bb770353b08d7
-```
-
-### Verify on Windows
-
-```powershell
-Get-FileHash .\ICOM_M710_VFO_Controller_1.0.6.exe -Algorithm SHA256
-```
+The released Windows executable is packaged for direct use without requiring a Python installation.
 
 ---
 
-# 📥 RELEASES
-
-| Version       | Description                                  |
-| ------------- | -------------------------------------------- |
-| 🆕 **v1.0.7** | Communication + COM Monitor + RIT + RF Level |
-| **v1.0.6**    | Real-time S-Meter                            |
-| **v1.0.5**    | Core VFO Controller                          |
-
-### 🔗 GitHub Releases
-
-https://github.com/4s6ggs/icom-icm710-vfo/releases
-
----
-
-# ⚠️ DISCLAIMER
-
-This is an independent software project for controlling the ICOM IC-M710 through its serial / CI-V interface.
-
-ICOM and IC-M710 are trademarks of their respective owner.
-
-Use the software at your own risk.
-
-Always verify:
-
-* Radio configuration
-* CI-V settings
-* Connector pinout
-* Interface circuitry
-* Signal levels
-* COM-port settings
-
-The developer is not responsible for damage caused by incorrect wiring, configuration or operation.
-
----
-
-# 👨‍💻 DEVELOPER
+# 👨‍💻 Developer
 
 <p align="center">
 
-### 📻 4S6GGS
+### 4S6GGS
 
 **ICOM IC-M710 VFO Controller**
 
-**v1.0.7**
+Amateur Radio • Electronics • Software • Remote Control
 
 </p>
 
 ---
 
-# ⭐ PROJECT
+# 📡 Project
 
-If this project is useful to you, consider giving the repository a ⭐ on GitHub.
+<p align="center">
+  <a href="https://github.com/4s6ggs/icom-icm710-vfo">
+    <img src="https://img.shields.io/badge/GitHub-4S6GGS%2Ficom--icm710--vfo-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
+  </a>
+</p>
 
-**Repository:**
-https://github.com/4s6ggs/icom-icm710-vfo
+---
 
-**Releases:**
-https://github.com/4s6ggs/icom-icm710-vfo/releases
+# 📜 Version Timeline
+
+```text
+v1.0.5
+  │
+  ├── Core VFO Controller
+  ├── Frequency Control
+  ├── Band Selection
+  ├── Mouse-Wheel Tuning
+  └── CI-V Control
+  │
+  ▼
+v1.0.6
+  │
+  ├── Real-Time S-Meter
+  ├── S0–S8 Display
+  └── Improved Monitoring
+  │
+  ▼
+v1.0.7
+  │
+  ├── Communication / COM Page
+  ├── COM Port Monitor
+  ├── RIT Control
+  ├── RF Level Control
+  └── Communication Improvements
+```
+
+---
+
+# ⭐ Support the Project
+
+If this project is useful to you:
+
+* ⭐ Star the repository
+* 🐛 Report bugs
+* 💡 Suggest improvements
+* 📡 Share the project with other IC-M710 users
 
 ---
 
 <p align="center">
 
-## 📻 ICOM IC-M710 VFO Controller
+<strong>📻 ICOM IC-M710 VFO Controller</strong>
 
-### **4S6GGS • v1.0.7**
+<br>
 
-**🎛️ VFO • 📡 CI-V • 📶 S-METER • 🎯 RIT • 📊 RF LEVEL • 🖥️ COM MONITOR**
+<em>Control • Monitor • Tune • Communicate</em>
+
+<br><br>
+
+<strong>73 de 4S6GGS</strong>
 
 </p>
