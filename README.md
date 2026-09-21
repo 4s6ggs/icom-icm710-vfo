@@ -1,4 +1,4 @@
-# ICOM IC-M710 VFO Controller
+# ICOM IC-M710 Controller
 
 **Professional Windows VFO control software for the ICOM IC-M710**
 
