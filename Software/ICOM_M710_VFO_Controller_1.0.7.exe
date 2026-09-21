@@ -1,16 +1,16 @@
 # ICOM IC-M710 VFO Controller — v1.0.7
 
-## Version 1.0.7 — New Features
+**Developer:** 4S6GGS
+**Radio:** ICOM IC-M710
+**Platform:** Windows 10 / Windows 11
 
-Version **1.0.7** introduces a new Communication page and additional controls on the Main page.
+## v1.0.7 New Features
 
-## 1. Communication / COM Port Page
+Version **1.0.7** adds the following features:
 
-A separate **Communication / COM Port** page has been added.
+### 1. Separate Communication / COM Port Page
 
-This page contains the communication configuration for the IC-M710.
-
-### Communication Settings
+Communication settings are now available on a dedicated page.
 
 * COM Port
 * Baud Rate
@@ -18,63 +18,61 @@ This page contains the communication configuration for the IC-M710.
 * Radio ID
 * Connect / Disconnect
 
-Communication settings are now separated from the Main operating page.
+### 2. COM Port Monitor
 
----
+A **COM Monitor** has been added to the Communication page.
 
-## 2. COM Port Monitor
+It allows monitoring of communication between the controller and the IC-M710.
 
-A **COM Port Monitor** has been added to the Communication / COM Port page.
+Useful for:
 
-The monitor allows the user to observe communication between the controller and the IC-M710.
+* Checking COM communication
+* Checking transmitted commands
+* Checking radio responses
+* Troubleshooting the interface
 
-It can be used to check:
-
-* COM port communication
-* CI-V commands
-* Radio responses
-* Communication activity
-* Communication problems
-
-The COM Monitor is useful when testing or troubleshooting the radio connection.
-
----
-
-## 3. Main Page — RIT Control
+### 3. RIT Control
 
 **RIT Control** has been added to the Main page.
 
-The RIT control allows the receive frequency to be adjusted independently from the main VFO frequency.
+RIT allows the receive frequency to be adjusted without changing the main VFO frequency.
 
-This provides quick receive-frequency adjustment without changing the main operating frequency.
+### 4. RF Level Control
+
+**RF Level Control** has been added to the Main page.
+
+It provides real-time monitoring/control of the IC-M710 RF/signal level during receive operation.
+
+## v1.0.7 Quick Operation
+
+1. Start `ICOM_M710_VFO_Controller_1.0.7.exe`.
+2. Open **COM Port Setup**.
+3. Select the COM Port.
+4. Select the required Baud Rate.
+5. Enter the Radio ID.
+6. Confirm the Controller ID.
+7. Check the **COM Monitor**.
+8. Press **CONNECT**.
+9. Return to the **Main page**.
+10. Use **RIT** and **RF Level** controls as required.
+
+## v1.0.7 Release
+
+**Executable:**
+
+`Software/ICOM_M710_VFO_Controller_1.0.7.exe`
+
+**SHA-256:**
+
+```text
+85e167451da74dc6a0ab8c68471e32b842706fe0b8516f771bec5275ed98b8b1
+```
+
+**GitHub:**
+
+https://github.com/4s6ggs/icom-icm710-vfo
 
 ---
 
-## 4. Main Page — RF Level
-
-**RF Level** has been added to the Main page.
-
-The controller reads the IC-M710 received signal level and displays the RF/signal level in real time.
-
-The RF Level display provides a simple indication of the current received signal strength.
-
----
-
-## 5. v1.0.7 Summary
-
-### Communication Page
-
-* Separate COM Port configuration
-* COM Port Monitor
-* Communication monitoring
-
-### Main Page
-
-* RIT Control
-* RF Level display/control
-
----
-
-**ICOM IC-M710 VFO Controller v1.0.7**
-**Developer: 4S6GGS**
-
+**ICOM IC-M710 VFO Controller — 4S6GGS**
+**Version 1.0.7**
