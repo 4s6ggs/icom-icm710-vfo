@@ -31,9 +31,10 @@ The controller provides computer-based frequency tuning, operating-mode selectio
 * Real-time S-Meter
 * Volume control
 * Speaker mute
-* COM-port configuration
+* COM port configuration
 * Serial communication monitor
 * Configurable Radio ID and Controller ID
+* RF Level Control 
 
 ---
 
@@ -92,7 +93,7 @@ v1.0.7 also includes improvements to:
 * COM-port configuration
 * Serial communication monitoring
 * Radio-control workflow
-* General controller operation
+* RF Level controller
 
 ---
 
@@ -133,28 +134,6 @@ A complete operating and setup guide is included in the repository.
 
 [**Open the Complete User Guide →**](docs/USER_GUIDE.md)
 
-The guide includes:
-
-* IC-M710 setup
-* Radio ID configuration
-* COM-port configuration
-* CI-V communication
-* COM Monitor
-* Frequency control
-* Band selection
-* Operating modes
-* Mouse-wheel tuning
-* Auto acceleration
-* RIT
-* RX/TX indication
-* Remote status
-* S-Meter
-* Volume
-* Speaker mute
-* Troubleshooting
-* DIY CP2102 interface
-* DIY clone/remote-control cable construction
-* SHA-256 verification
 
 ---
 
@@ -493,9 +472,6 @@ Before connecting a DIY interface to the IC-M710:
 
 **Do not connect a CP2102 module directly to an IC-M710 connector unless electrical compatibility and the required interface circuitry have been verified.**
 
-Complete DIY construction information is provided in:
-
-[**USER_GUIDE.md — DIY CP2102 / Clone Cable**](docs/USER_GUIDE.md)
 
 ---
 
@@ -583,17 +559,14 @@ For a DIY interface, verify the circuit before reconnecting it to the radio.
 │ Interface               │
 └────────────┬────────────┘
              │
-             │ Serial / CI-V
+             │ Serial 
              ▼
 ┌─────────────────────────┐
 │     ICOM IC-M710        │
 │                         │
 │ HF Marine Transceiver   │
 └────────────┬────────────┘
-             │
-             │ CI-V Response
-             ▼
-        Controller
+
 ```
 
 ---
