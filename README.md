@@ -1,9 +1,5 @@
 # 📻 ICOM IC-M710 VFO Controller
 
-<p align="center">
-  <img src="screenshot/screenshot-v1.0.7.png" alt="ICOM IC-M710 VFO Controller v1.0.7" width="900">
-</p>
-
 <h3 align="center">🎛️ Professional Windows VFO & Remote Control</h3>
 
 <p align="center">
