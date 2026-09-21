@@ -278,147 +278,8 @@ This project demonstrates a CP2102-based universal radio cable using TX/RX isola
 
 ---
 
-## 8.1 What You Need
 
-A basic DIY interface may require:
-
-| Item                       |    Quantity | Purpose               |
-| -------------------------- | ----------: | --------------------- |
-| CP2102 USB-to-UART module  |           1 | USB serial interface  |
-| USB cable                  |           1 | PC connection         |
-| Suitable IC-M710 connector |           1 | Radio connection      |
-| Shielded cable             | As required | Radio-side connection |
-| Interface components       | As required | Electrical interface  |
-| Small enclosure            |    Optional | Protection            |
-| Heat-shrink tubing         | As required | Insulation            |
-| Solder                     | As required | Assembly              |
-
-The exact additional interface components depend on the IC-M710 remote-control electrical interface being used.
-
----
-
-# 9. Understanding the DIY Cable
-
-The cable can be considered as three sections:
-
-```text
-┌──────────────┐
-│ Windows PC   │
-└──────┬───────┘
-       │ USB
-       ▼
-┌──────────────┐
-│   CP2102     │
-│ USB → UART   │
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│ Radio-Side   │
-│ Interface    │
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│  IC-M710     │
-│ Remote       │
-│ Interface    │
-└──────────────┘
-```
-
-The CP2102 performs the USB-to-UART conversion.
-
-The radio-side circuit provides whatever additional electrical interface is required between the UART signals and the IC-M710.
-
----
-
-# 10. CP2102 Module
-
-A typical CP2102 module provides:
-
-```text
-VCC
-GND
-TXD
-RXD
-```
-
-Some modules provide additional pins.
-
-The main serial signals are:
-
-```text
-TXD
-RXD
-GND
-```
-
-Check the markings on the actual CP2102 module before wiring it.
-
-Different CP2102 boards can have different connector arrangements.
-
----
-
-# 11. TX and RX
-
-Serial communication has two data directions:
-
-```text
-TX = Transmit
-RX = Receive
-```
-
-For a conventional UART connection:
-
-```text
-CP2102 TX  →  Interface RX
-CP2102 RX  ←  Interface TX
-```
-
-The signal reference/ground must also be correctly connected where required.
-
-Do not assume that the IC-M710 connector itself follows the same pin arrangement as a standard PC UART.
-
-The radio-side interface must be verified separately.
-
----
-
-# 12. Do Not Connect the CP2102 Directly to the IC-M710
-
-A CP2102 is a **USB-to-UART bridge**.
-
-It does not automatically provide every electrical interface required by radio equipment.
-
-Do not assume that:
-
-```text
-CP2102 TX ───── Radio
-CP2102 RX ───── Radio
-GND       ───── Radio
-```
-
-is sufficient.
-
-The correct system may instead require:
-
-```text
-USB
- │
- ▼
-CP2102
- │
- ▼
-Required Interface Circuit
- │
- ▼
-IC-M710 Remote Interface
-```
-
-Verify the radio interface before applying power.
-
----
-
-# 13. IC-M710 Remote Interface
+# 9. IC-M710 Remote Interface
 
 The IC-M710 provides remote-control functionality through its designated interface.
 
@@ -437,7 +298,7 @@ Do not rely on an unverified Internet pinout.
 
 ---
 
-# 14. IC-M710 `REMT-IF` Setting
+# 10. IC-M710 `REMT-IF` Setting
 
 The IC-M710 has a Set Mode item named:
 
@@ -473,7 +334,7 @@ For example, an IC-M710 configuration may show an interface selection associated
 
 ---
 
-# 15. How to Find the IC-M710 Radio ID
+# 11. How to Find the IC-M710 Radio ID
 
 The **Radio ID** is required by the VFO Controller.
 
@@ -545,7 +406,7 @@ The default value is normally:
 
 ---
 
-# 16. `REMT-ID` vs `REMT-IF`
+# 12. `REMT-ID` vs `REMT-IF`
 
 These two settings are different.
 
@@ -589,7 +450,7 @@ Use `REMT-IF` to select the appropriate physical remote-control interface.
 
 ---
 
-# 17. Windows COM Port
+# 13. Windows COM Port
 
 After connecting the USB interface:
 
@@ -618,7 +479,7 @@ is the COM port to select in the controller.
 
 ---
 
-# 18. CP2102 USB Driver
+# 14. CP2102 USB Driver
 
 Windows may automatically install a driver for the CP2102.
 
@@ -633,7 +494,7 @@ Device Manager
 
 ---
 
-# 19. Building the DIY Cable
+# 15. Building the DIY Cable
 
 For a first build, construct and test the cable in stages.
 
