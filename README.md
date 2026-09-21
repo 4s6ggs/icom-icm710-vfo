@@ -11,15 +11,23 @@ Designed for amateur-radio and SWL use, the controller provides frequency tuning
 
 ## 📸 Screenshot
 
-![ICOM IC-M710 VFO Controller v1.0.7](screenshot-v1.0.7.png)
+![ICOM IC-M710 VFO Controller v1.0.7](screenshot/screenshot-v1.0.7.png)
 
 ---
 
-## 🚀 Latest Release — v1.0.7
+# 🚀 Latest Release — v1.0.7
 
 **Current release: v1.0.7**
 
-[Download ICOM IC-M710 VFO Controller v1.0.7](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.7?utm_source=chatgpt.com)
+### Download
+
+**Portable Windows EXE — no Python installation required**
+
+[**Download ICOM_M710_VFO_Controller_1.0.7.exe**](software/ICOM_M710_VFO_Controller_1.0.7.exe)
+
+You can also download the official GitHub Release:
+
+[**View v1.0.7 Release**](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.7)
 
 ### v1.0.7 Changes
 
@@ -32,7 +40,7 @@ Designed for amateur-radio and SWL use, the controller provides frequency tuning
 ### v1.0.7 Executable
 
 ```text
-ICOM_M710_VFO_Controller_1.0.7.exe
+software/ICOM_M710_VFO_Controller_1.0.7.exe
 ```
 
 ### SHA-256
@@ -57,7 +65,7 @@ The calculated hash should match:
 
 ---
 
-## 📖 User Guide
+# 📖 User Guide
 
 The complete beginner-friendly operating and installation guide is available here:
 
@@ -173,7 +181,7 @@ PICOA,90,<RADIO_ID>,SIGM,
 | 12 m  | 24.890–24.990 MHz |    24.890 MHz |
 | 10 m  | 28.000–29.700 MHz |    28.000 MHz |
 
-> **Note:** Frequency ranges are provided as controller quick-selection ranges. Always observe the applicable operating privileges, band plans, and regulations for your location.
+> **Note:** Frequency ranges are provided as controller quick-selection ranges. Always observe applicable operating privileges, band plans, and regulations.
 
 ---
 
@@ -212,8 +220,6 @@ The Radio ID must correspond to the IC-M710 configuration.
 ---
 
 # ⚙️ Default Settings
-
-When the application starts, the default configuration is:
 
 | Setting       | Default            |
 | ------------- | ------------------ |
@@ -268,7 +274,7 @@ Users who want to build their own USB serial radio interface can use a CP2102-ba
 
 A useful general reference is:
 
-[DIY Universal Radio Clone Cable Using CP2102 USB Interface — Instructables](https://www.instructables.com/DIY-Universal-Radio-Clone-Cable-Using-CP2102-USB-I?utm_source=chatgpt.com)
+[**DIY Universal Radio Clone Cable Using CP2102 USB Interface — Instructables**](https://www.instructables.com/DIY-Universal-Radio-Clone-Cable-Using-CP2102-USB-I)
 
 The project demonstrates a CP2102 USB interface with TX/RX isolation and a common radio clone bus.
 
@@ -298,7 +304,7 @@ The IC-M710 Radio ID can be checked from the radio's setup mode.
 
 1. Turn the IC-M710 **OFF**.
 2. Press and hold **FUNC + 1**.
-3. Turn the radio **ON** while continuing to hold the controls as required.
+3. Turn the radio **ON**.
 4. The radio enters its setup mode.
 5. Use the **GROUP selector / left knob** to navigate the setup items.
 6. Locate the remote-control settings.
@@ -413,11 +419,9 @@ These controls allow basic audio adjustment from the computer interface.
 
 ## v1.0.7
 
-**Current release**
+![v1.0.7](screenshot/screenshot-v1.0.7.png)
 
-![v1.0.7](screenshot-v1.0.7.png)
-
-Changes:
+### Changes
 
 * Separate COM Port Setup page
 * COM Monitor
@@ -426,25 +430,27 @@ Changes:
 * Improved COM monitoring
 * Improved radio-control workflow
 
-[View v1.0.7 Release](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.7?utm_source=chatgpt.com)
+### Download
+
+[**Download v1.0.7 EXE**](software/ICOM_M710_VFO_Controller_1.0.7.exe)
+
+[**View v1.0.7 GitHub Release**](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.7)
 
 ---
 
 ## v1.0.6
 
-![v1.0.6](screenshot-v1.0.6.png)
+![v1.0.6](screenshot/screenshot-v1.0.6.png)
 
-### v1.0.6 Changes
+### Changes
 
 * Added real-time S-Meter display.
 * Added IC-M710 signal-level polling.
 * Improved radio-status monitoring.
 
-### v1.0.6 Executable
+### Download
 
-```text
-ICOM_M710_VFO_Controller_1.0.6.exe
-```
+[**Download v1.0.6 EXE**](software/ICOM_M710_VFO_Controller_1.0.6.exe)
 
 ### SHA-256
 
@@ -452,23 +458,21 @@ ICOM_M710_VFO_Controller_1.0.6.exe
 2956fceac0918cfa544eafabefab704a66dc9cc44892e3ac388f59fa62ac584d
 ```
 
-[View v1.0.6 Release](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.6?utm_source=chatgpt.com)
+[**View v1.0.6 GitHub Release**](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.6)
 
 ---
 
 ## v1.0.5
 
-![v1.0.5](screenshot.png)
+![v1.0.5](screenshot/screenshot.png)
 
 ### v1.0.5
 
 This was the earlier public release of the ICOM IC-M710 VFO Controller.
 
-### v1.0.5 Executable
+### Download
 
-```text
-ICOM_M710_VFO_Controller.exe
-```
+[**Download v1.0.5 EXE**](software/ICOM_M710_VFO_Controller.exe)
 
 ### SHA-256
 
@@ -476,7 +480,7 @@ ICOM_M710_VFO_Controller.exe
 60d02d21b5468971dfd9acc787fdb89184801a780a25e24daa7bb770353b08d7
 ```
 
-[View v1.0.5 Release](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.5?utm_source=chatgpt.com)
+[**View v1.0.5 GitHub Release**](https://github.com/4s6ggs/icom-icm710-vfo/releases/tag/v1.0.5)
 
 ---
 
@@ -592,29 +596,34 @@ The application sends control commands and processes responses from the radio.
 
 # 📁 Repository Structure
 
-The public repository is organized approximately as follows:
+The repository is organized as follows:
 
 ```text
 icom-icm710-vfo/
 │
 ├── README.md
-├── screenshot.png
-├── screenshot-v1.0.6.png
-├── screenshot-v1.0.7.png
 │
-└── docs/
-    └── USER_GUIDE.md
+├── docs/
+│   └── USER_GUIDE.md
+│
+├── software/
+│   ├── ICOM_M710_VFO_Controller_1.0.7.exe
+│   ├── ICOM_M710_VFO_Controller_1.0.6.exe
+│   └── ICOM_M710_VFO_Controller.exe
+│
+└── screenshot/
+    ├── screenshot-v1.0.7.png
+    ├── screenshot-v1.0.6.png
+    └── screenshot.png
 ```
-
-The compiled application is distributed through the GitHub Releases page.
 
 ---
 
 # 🔐 SHA-256 Verification
 
-SHA-256 hashes are provided for published executables so that users can verify the downloaded file.
+SHA-256 hashes are provided for published executables so that users can verify downloaded files.
 
-Example PowerShell command:
+For example, after downloading the v1.0.7 executable:
 
 ```powershell
 Get-FileHash .\ICOM_M710_VFO_Controller_1.0.7.exe -Algorithm SHA256
@@ -622,17 +631,37 @@ Get-FileHash .\ICOM_M710_VFO_Controller_1.0.7.exe -Algorithm SHA256
 
 Compare the result with the SHA-256 value published for the corresponding release.
 
+### v1.0.7
+
+```text
+85e167451da74dc6a0ab8c68471e32b842706fe0b8516f771bec5275ed98b8b1
+```
+
+### v1.0.6
+
+```text
+2956fceac0918cfa544eafabefab704a66dc9cc44892e3ac388f59fa62ac584d
+```
+
+### v1.0.5
+
+```text
+60d02d21b5468971dfd9acc787fdb89184801a780a25e24daa7bb770353b08d7
+```
+
 ---
 
 # 📥 Downloads
 
-The latest executable is available from the GitHub Releases page.
+### Latest Version
 
-[Download the Latest Release](https://github.com/4s6ggs/icom-icm710-vfo/releases/latest?utm_source=chatgpt.com)
+[**Download ICOM_M710_VFO_Controller_1.0.7.exe**](software/ICOM_M710_VFO_Controller_1.0.7.exe)
 
-All published releases:
+### GitHub Releases
 
-[View All Releases](https://github.com/4s6ggs/icom-icm710-vfo/releases?utm_source=chatgpt.com)
+[**Download from GitHub Releases**](https://github.com/4s6ggs/icom-icm710-vfo/releases/latest)
+
+[**View All Releases**](https://github.com/4s6ggs/icom-icm710-vfo/releases)
 
 ---
 
@@ -642,7 +671,7 @@ The public release provides the compiled Windows executable.
 
 **Python source code is not included in the public GitHub release.**
 
-The repository is intended to provide the controller application, documentation, release information, and supporting project material.
+The repository provides the controller application, documentation, screenshots, and release information.
 
 ---
 
@@ -736,7 +765,7 @@ Please refer to the repository for the applicable project licensing information.
 **Platform:** Windows
 **Radio:** ICOM IC-M710
 
-[GitHub Repository — 4s6ggs/icom-icm710-vfo](https://github.com/4s6ggs/icom-icm710-vfo?utm_source=chatgpt.com)
+[**GitHub Repository — 4s6ggs/icom-icm710-vfo**](https://github.com/4s6ggs/icom-icm710-vfo)
 
 ---
 
