@@ -24,8 +24,6 @@
 
 ---
 
-# 📥 Download
-
 ## ⭐ Latest Release — v1.0.7
 
 <p align="center">
