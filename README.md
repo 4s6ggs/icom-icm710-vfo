@@ -38,7 +38,6 @@ The application is provided as a compiled Windows executable, so **Python is not
 
 👉 **[Download the latest release from GitHub](https://github.com/4s6ggs/icom-icm710-vfo/releases/latest)**
 
-> ⚠️ Make sure the v1.0.7 executable is uploaded to the GitHub Release assets before distributing the release.
 
 ---
 
