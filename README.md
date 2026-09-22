@@ -1,6 +1,6 @@
 # 📻 ICOM IC-M710 VFO Controller
 
-<h3 align="center">🎛️ Professional Windows VFO & Remote Control</h3>
+<h3 align="center">🎛️ Win VFO & Remote Control</h3>
 
 <p align="center">
   A modern Windows control application for the
