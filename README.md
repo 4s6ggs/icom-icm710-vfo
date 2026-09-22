@@ -445,7 +445,7 @@ This provides an immediate visual indication of the radio's operating state.
 
 A USB-to-serial interface may be used as part of the PC connection.
 
-For example, a **CP2102-based USB-UART adapter** may be suitable for the USB-to-UART portion of an interface, but the radio-side connection must be designed for the IC-M710 CI-V electrical interface.
+For example, a **CP2102-based USB-UART adapter** may be suitable for the USB-to-UART portion of an interface, but the radio-side connection must be designed for the IC-M710 CI-V electrical interface.https://www.instructables.com/DIY-Universal-Radio-Clone-Cable-Using-CP2102-USB-I
 
 > ⚠️ **Important:** Do not connect a generic UART directly to the radio without confirming the IC-M710 connector pinout, CI-V interface requirements, signal levels, and required interface circuitry.
 
@@ -478,8 +478,8 @@ Radio ID      = 01
 ### Hardware
 
 * ICOM IC-M710
-* Compatible CI-V interface
-* Available COM port
+* Diy usb to com clone interface
+  https://www.instructables.com/DIY-Universal-Radio-Clone-Cable-Using-CP2102-USB-I
 
 ### Software
 
@@ -690,18 +690,6 @@ v1.0.7
   ├── RF Level Control
   └── Communication Improvements
 ```
-
----
-
-# ⭐ Support the Project
-
-If this project is useful to you:
-
-* ⭐ Star the repository
-* 🐛 Report bugs
-* 💡 Suggest improvements
-* 📡 Share the project with other IC-M710 users
-
 ---
 
 <p align="center">
