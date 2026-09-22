@@ -591,26 +591,6 @@ Check:
 * Radio is connected.
 * CI-V communication is working.
 * The radio is receiving a signal.
-* The COM interface is configured correctly.
-
----
-
-# 📁 Project Structure
-
-The recommended repository structure is:
-
-```text
-icom-icm710-vfo/
-│
-├── screenshot/
-│   ├── screenshot-v1.0.7.png
-│   └── screenshot-v1.0.7-2.png
-│
-├── ICOM_M710_VFO_Controller.exe
-├── ICOM_M710_VFO_Controller_1.0.6.exe
-│
-└── README.md
-```
 
 ---
 
@@ -686,11 +666,6 @@ v1.0.7
 
 <strong>📻 ICOM IC-M710 VFO Controller</strong>
 
-<br>
-
-<em>Control • Monitor • Tune • Communicate</em>
-
-<br><br>
 
 <strong>73 de 4S6GGS</strong>
 
